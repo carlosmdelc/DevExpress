@@ -5,11 +5,11 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
+        <h1>Products</h1>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
-
+    <!--
     <div class="row">
         <div class="col-md-4">
             <h2>Getting started</h2>
@@ -40,10 +40,10 @@
             </p>
         </div>
     </div>
-
+    -->
     <div class="container">
 
-        <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" KeyFieldName="ProductID" Theme="Glass">
+        <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" KeyFieldName="ProductID" Theme="Office2010Silver">
 <SettingsAdaptivity>
 <AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
 </SettingsAdaptivity>
